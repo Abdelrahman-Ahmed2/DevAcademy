@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth !important;
+}
+body {
+  background-color: #212529;
+  box-sizing: border-box;
+  color: #f8fafc;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.logo {
+  width: 100px;
+  height: 55px;
+}
+.navbar {
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  padding: 0px 0 !important;
+}
+.navbar:hover {
+  background-color: #1b1f22;
+  transition: 0.5s ease;
+}
+.nav-link {
+  color: #f8fafc !important;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.nav-link:hover {
+  color: #3b82f6 !important;
+  transform: translateY(-3px);
+}
+.nav-link.active {
+  color: orange !important;
+}
+.dropdown-menu {
+  width: fit-content;
+  background-color: #1b1f22 !important;
+  margin-top: 12px !important;
+}
+.dropdown-menu .dropdown-item {
+  width: 100%;
+  background-color: #1b1f22 !important;
+  color: white !important;
+  margin-bottom: 5px !important;
+  transition: all 1s !important;
+  background-color: #3b82f6;
+}
+.dropdown-menu a:hover {
+  transition: ease 1s !important;
+  color: #004cff !important;
+  background-color: #1b1f22 !important;
+  transform: scale(0.9);
+}
+.login {
+  background-color: #2563eb;
+  border: none;
+  border-radius: 6px;
+  padding: 4px 5px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: ease 0.3s;
+}
+.login:hover {
+  background-color: #004cff;
+  border: none;
+  border-radius: 6px;
+  padding: 4px 5px;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0px 2px rgba(82, 161, 235, 0.3);
+}
+
+/* Home */
+.carousel-inner img {
+  height: 100vh !important;
+  object-fit: fill;
+  filter: brightness(0.45);
+}
+.carouselExampleCaptions {
+  position: relative;
+}
+.carousel-caption {
+  border-radius: 10px;
+  position: absolute;
+  margin-bottom: 10%;
+}
+.carousel-caption h2 {
+  color: orange;
+}
+.carousel-caption:hover {
+  background: linear-gradient(rgb(40, 38, 48), rgba(0, 0, 0, 0.582));
+  transition: 1s ease !important;
+}
+.carousel-inner button {
+  margin: 10px 10px !important;
+}
+
+/* specializations */
+section {
+  color: white;
+}
+/* text-header */
+.text-header {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+}
+.text-header::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  background: orange;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+  border-radius: 10px;
+}
+
+/* Cards */
+.card {
+  background-color: #1b1f22 !important;
+  border: 1px solid #334155;
+  transition: 0.4s;
+  border-radius: 15px;
+  color: #ffffff !important;
+}
+.card p {
+  min-height: 120px;
+}
+.card-body {
+  min-height: 230px;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Buttons */
+.btn {
+  /*background-color: #3b82f6 !important;
+    */
+  border: none !important;
+  transition: all 0.5s !important;
+  margin-top: 20px;
+  color: wheat;
+}
+.btn:hover {
+  /* background-color: #2563eb !important; */
+  transform: scale(1.1) !important;
+}
+
+/* contactus */
+.contactus {
+  margin-bottom: 100px !important;
+}
+.formcontactus {
+  border: solid #2b3035;
+  border-radius: 10px;
+  padding: 20px 20px;
+  box-shadow: 1px 5px 5px #1b1f22;
+}
+.formcontactus:hover {
+  box-shadow:
+    1px 5px 5px #2b3035,
+    -1px -5px 5px #2b3035;
+}
+.formcontactus #exampleFormControlInput1 {
+  background-color: #d3d3d3 !important;
+  border: none;
+}
+.formcontactus #exampleFormControlTextarea1 {
+  background-color: #e8e8e8 !important;
+}
+
+/* Footer */
+footer {
+  background-color: #2b3035;
+  padding: 40px 0;
+  width: 100% !important;
+  border-top: #334155 1px solid;
+}
+.nav a {
+  color: gray !important;
+  font-size: 16px;
+}
+.nav-item a {
+  color: gray !important;
+  font-size: 16px;
+}
+footer i {
+  font-size: 1.3em;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+footer i:hover {
+  transform: translateY(-4px);
+}
+
+@media (max-width: 768px) {
+  .dropdown-menu {
+    background-color: #151718 !important;
+    margin-top: 5px !important;
+  }
+  .dropdown-menu .dropdown-item {
+    width: 100%;
+    background-color: #151718 !important;
+  }
+
+  .navbar-toggler {
+    margin-right: 20px;
+  }
+
+  .navbar {
+    padding-bottom: 10px !important;
+  }
+  .login {
+    width: 30%;
+  }
+
+  .carousel-item img {
+    height: 75vh !important;
+  }
+
+  .carousel-caption {
+    margin-bottom: 6%;
+  }
+  .carousel-caption h1 {
+    font-size: 1.7rem;
+  }
+
+  .carousel-caption h2 {
+    font-size: 1.2rem;
+  }
+
+  .carousel-caption p {
+    font-size: 0.9rem;
+  }
+}

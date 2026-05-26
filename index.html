@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="DevAcademy is an online learning platform offering programming, web development, and data analytics courses from beginner to professional level."
+    />
+    <meta
+      name="keywords"
+      content="programming, web development, frontend, backend, react, javascript, devacademy"
+    />
+    <title>DevAcademy | Learn Programming & Web Development</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark border-body fixed-top font-monospace"
+    >
+      <div class="container center">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="images/logo.png"
+            alt="Logo of Dev Academy programming learning platform"
+            class="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#specializations"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                specializations
+              </a>
+              <ul class="dropdown-menu bg-black bg-opacity-10">
+                <li>
+                  <a
+                    class="dropdown-item text-white bg-black bg-opacity-10"
+                    href="frontend.html"
+                    target="_blank"
+                    >Front End Developer</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item text-white bg-black bg-opacity-10"
+                    href="backend.html"
+                    target="_blank"
+                    >Back End Developer</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item text-white bg-black bg-opacity-10"
+                    href="https://www.youtube.com/watch?v=oOv1gE0ER3I&list=PLonOrMR73lKiRTVZ65tKXwczwi09qzlUt"
+                    target="_blank"
+                    >Data Analytics</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactus">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex login">
+            <a
+              href="login.html"
+              class="text-white text-decoration-none border-5 btn-outline-light font-monospace"
+            >
+              Login
+              <i
+                class="fa-regular fa-user"
+                data-aos="flip-left"
+                data-aos-delay="200"
+                data-aos-duration="1500"
+              ></i
+            ></a>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+      <div id="carouselExampleCaptions" class="carousel slide mt-5">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/Home.jpeg"
+              class="d-block w-100"
+              alt="Programming courses banner"
+            />
+          </div>
+          <div
+            class="carousel-caption d-md-block"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="1500"
+          >
+            <h1>Learn programming</h1>
+            <h2>From Zero to Professional</h2>
+            <p>
+              Comprehensive programming courses suitable for all levels, Start
+              your journey now and develop your skills step by step.
+            </p>
+            <a href="#specializations" type="button" class="btn btn-success"
+              >Browse Courses <i class="fa-solid fa-graduation-cap"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="text-center p-5 bg-dark bg-gradient">
+      <div class="card text-center text-bg-dark text-white">
+        <div class="card-header">
+          <h2
+            class="text-header pt-3"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+            data-aos-duration="1500"
+          >
+            About
+          </h2>
+        </div>
+        <div
+          class="card-text w-75 pb-4 mx-auto"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-duration="1500"
+        >
+          <p>
+            A comprehensive online learning platform specialized in technology,
+            programming, and data analytics, offering professional courses
+            designed to help students and beginners build real-world skills for
+            today’s job market. The platform provides high-quality educational
+            content covering web development, Front-End and Back-End
+            development, data analysis, and databases, along with practical
+            projects and hands-on training to enhance learning experience. With
+            a modern user-friendly interface, step-by-step lessons, and
+            continuous support, the platform helps learners grow their technical
+            skills and achieve their career goals in the world of technology.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- specializations -->
+    <section id="specializations" class="text-center mt-5">
+      <div class="d-flex justify-content-center align-content-center flex-wrap">
+        <h2
+          class="text-header pb-2"
+          data-aos="zoom-in"
+          data-aos-delay="200"
+          data-aos-duration="1500"
+        >
+          Available specializations
+        </h2>
+      </div>
+      <p class="mt-4 mb-5">
+        Choose the specialization that suits you and begin your journey in the
+        world of programming.
+      </p>
+
+      <div class="d-flex justify-content-around flex-wrap">
+        <!-- Front End Developer -->
+        <div
+          class="frontend"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-duration="1000"
+        >
+          <div class="card frontend text-bg-dark mb-4" style="max-width: 20rem">
+            <div class="card-header">
+              <i
+                class="fa-solid fa-laptop-code"
+                style="font-size: 3em; color: blueviolet"
+                data-aos="flip-left"
+                data-aos-delay="200"
+                data-aos-duration="1500"
+              ></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-primary text-opacity-50">
+                Front End Developer
+              </h5>
+              <p class="card-text">
+                Learn to build interactive user interfaces using HTML, CSS,
+                JavaScript and the latest frameworks such as React.
+              </p>
+              <a
+                href="frontend.html"
+                target="_blank"
+                class="btn bg-primary bg-opacity-50 font-monospace"
+                type="button"
+                >View courses <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Back End Developer -->
+        <div
+          class="backend"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-duration="1300"
+        >
+          <div class="card text-bg-dark mb-4" style="max-width: 20rem">
+            <div class="card-header">
+              <i
+                class="fa-solid fa-server"
+                style="font-size: 3em; color: green"
+                data-aos="flip-left"
+                data-aos-delay="200"
+                data-aos-duration="1500"
+              ></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-success">Back End Developer</h5>
+              <p class="card-text">
+                Learn to build interactive user interfaces using Node.js,
+                Python, C#, PHP databases.
+              </p>
+              <a
+                href="backend.html"
+                target="_blank"
+                class="btn bg-success bg-opacity-50 font-monospace"
+                type="button"
+                >View courses <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data Analytics -->
+        <div
+          class="dataA"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-duration="1600"
+        >
+          <div class="card text-bg-dark mb-4" style="max-width: 20rem">
+            <div class="card-header">
+              <i
+                class="fa-solid fa-chart-column"
+                style="font-size: 3em; color: rgba(28, 28, 241, 0.596)"
+                data-aos="flip-left"
+                data-aos-delay="200"
+                data-aos-duration="1500"
+              ></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-primary text-primary">
+                Data Analytics
+              </h5>
+              <p class="card-text">
+                Learn data analysis, visualization, statistics, SQL, Excel, and
+                Python, Power BI to discover insights and make data-driven
+                decisions
+              </p>
+              <a
+                href="https://www.youtube.com/watch?v=oOv1gE0ER3I&list=PLonOrMR73lKiRTVZ65tKXwczwi09qzlUt"
+                target="_blank"
+                class="btn bg-primary bg-opacity-50 font-monospace"
+                type="button"
+                >View courses <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+      <div class="container">
+        <div class="d-flex justify-content-center mt-5 mb-4">
+          <h2
+            class="text-header d-inline-block p-2 mb-5 mt-4 text-capitalize"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+            data-aos-duration="1500"
+          >
+            services
+          </h2>
+        </div>
+      </div>
+      <div class="ServicesContent d-flex justify-content-around p-3 row">
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center mb-4">
+          <i
+            class="fa-solid fa-book-open mb-3"
+            style="font-size: 2em; color: orangered"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+            data-aos-duration="1500"
+          ></i>
+          <div class="w-75 mx-auto">
+            <h3 style="color: orangered">Practical content</h3>
+            <p>
+              Practical courses with real projects that help you apply them.
+            </p>
+          </div>
+        </div>
+
+        <div class="text-center col-lg-3 col-md-6 col-sm-12 mb-4">
+          <i
+            class="fa-solid fa-award mb-3"
+            style="font-size: 2em; color: blueviolet"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+            data-aos-duration="1500"
+          ></i>
+          <div class="mx-auto">
+            <h3 style="color: blueviolet">Accredited Certificates</h3>
+            <p class="w-75 mx-auto">
+              Get accredited certificates that enhance your resume.
+            </p>
+          </div>
+        </div>
+
+        <div class="text-center col-lg-3 col-md-6 col-sm-12 mb-4">
+          <i
+            class="fa-solid fa-headset mb-3"
+            style="font-size: 2em; color: green"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+            data-aos-duration="1500"
+          ></i>
+          <div class="mx-auto">
+            <h3 style="color: green">Ongoing support</h3>
+            <p class="w-75 mx-auto">
+              A support team is ready to assist you around the clock.
+            </p>
+          </div>
+        </div>
+
+        <div class="text-center col-lg-3 col-md-6 col-sm-12">
+          <i
+            class="fa-solid fa-people-group mb-3"
+            style="font-size: 2em; color: rgb(92, 92, 236)"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+            data-aos-duration="1500"
+          ></i>
+          <div class="mx-auto">
+            <h3 style="color: rgb(92, 92, 236)">Active community</h3>
+            <p class="w-75 mx-auto">
+              Join a community of learners and exchange experiences.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contactus" class="contactus text-center fw-bold mb-5">
+      <div class="w-50 mx-auto">
+        <h2
+          class="text-header d-inline-block p-2 mt-5"
+          data-aos="zoom-in"
+          data-aos-delay="200"
+          data-aos-duration="1500"
+        >
+          Contact us
+        </h2>
+      </div>
+
+      <div class="mt-5 mb-5">
+        <div class="formcontactus w-75 mx-auto">
+          <input
+            type="text"
+            class="form-control mb-2"
+            id="exampleFormControlInput1"
+            placeholder="Name"
+          />
+
+          <input
+            type="email"
+            class="form-control mb-2"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+
+          <textarea
+            class="form-control mb-3"
+            id="exampleFormControlTextarea1"
+            placeholder="Message"
+            rows="3"
+          ></textarea>
+          <a
+            href="#"
+            target="_blank"
+            class="btn bg-primary bg-opacity-50"
+            type="button"
+            >Send Message</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div
+        class="container text-center"
+        data-aos="zoom-in"
+        data-aos-delay="200"
+        data-aos-duration="1500"
+      >
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+            <h3>DevAcademy</h3>
+            <p class="text-secondary">
+              An educational platform specializing in teaching programming and
+              developing technical skills from beginner to professional.
+            </p>
+            <span
+              class="social-icons mx-auto d-flex justify-content-center align-items-center"
+            >
+              <a class="nav-link" href=""
+                ><i class="fa-brands fa-square-github text-white"></i
+              ></a>
+              <a class="nav-link" href=""
+                ><i class="fa-brands fa-square-linkedin text-primary"></i
+              ></a>
+              <a class="nav-link" href=""
+                ><i class="fa-brands fa-instagram text-danger"></i
+              ></a>
+              <a class="nav-link" href=""
+                ><i class="fa-brands fa-square-facebook text-primary"></i
+              ></a>
+              <a class="nav-link" href=""
+                ><i class="fa-brands fa-square-x-twitter text-info"></i
+              ></a>
+              <a class="nav-link" href=""
+                ><i class="fa-brands fa-youtube text-danger"></i
+              ></a>
+            </span>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+            <h3>Quick Links</h3>
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#specializations" role="button">
+                  specializations
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactus">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+            <h3>specializations</h3>
+            <nav class="nav flex-column">
+              <a class="nav-link" href="frontend.html" target="_blank"
+                >Front End Developer</a
+              >
+              <a class="nav-link" href="backend.html" target="_blank"
+                >Back End Developer</a
+              >
+              <a
+                class="nav-link"
+                href="https://www.youtube.com/watch?v=oOv1gE0ER3I&list=PLonOrMR73lKiRTVZ65tKXwczwi09qzlUt"
+                target="_blank"
+                >Data Analytics</a
+              >
+            </nav>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+            <h3>Contact Us</h3>
+            <nav class="nav flex-column">
+              <a class="nav-link" href=""
+                ><i class="fa-solid fa-house"></i> Egypt</a
+              >
+              <a class="nav-link" href=""
+                ><i class="fa-solid fa-envelope"></i> Gmail</a
+              >
+              <a class="nav-link" href=""
+                ><i class="fa-brands fa-whatsapp text-success"></i>Whats Up</a
+              >
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <p class="bg-gradient text-center">
+      Copyright © DevAcademy 2026 - All rights reserved.
+    </p>
+
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
